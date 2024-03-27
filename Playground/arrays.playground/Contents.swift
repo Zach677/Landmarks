@@ -52,3 +52,11 @@ print(bondMovies.contains("Frozen"))
 
 let cities = ["London", "Tokyo", "Rome", "Budapest"]
 print(cities.sorted())
+
+let presidents = ["Bush", "Obama", "Trump", "Biden"]
+let reversedPresidents = presidents.reversed()
+print(reversedPresidents)
+
+let Swift = ["s", "w", "i", "f", "t"]
+let sortedSwift = Swift.sorted()
+print(sortedSwift)
