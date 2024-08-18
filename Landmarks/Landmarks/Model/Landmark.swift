@@ -22,7 +22,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     }
 
     private var coordinates: Coordinates
-    var locationCoordinates: CLLocationCoordinate2D {
+    var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude, longitude: coordinates.longitude)
     }
