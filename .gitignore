@@ -89,4 +89,4 @@ fastlane/test_output
 .codeedit
 .idea
 .vscode
-IceCubesApp.xcconfig
+LandmarksApp.xcconfig

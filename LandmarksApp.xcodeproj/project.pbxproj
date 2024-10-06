@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F814DCCA2CAEA99B00E98969 /* LandmarksApp-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F814DCC92CAEA98C00E98969 /* LandmarksApp-release.xcconfig */; };
-		F814DD8F2CAEBDD500E98969 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F814DD692CAEBDD500E98969 /* Preview Assets.xcassets */; };
 		F814DD902CAEBDD500E98969 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = F814DD712CAEBDD500E98969 /* hikeData.json */; };
 		F814DD912CAEBDD500E98969 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = F814DD722CAEBDD500E98969 /* landmarkData.json */; };
 		F814DD922CAEBDD500E98969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F814DD8C2CAEBDD500E98969 /* Assets.xcassets */; };
@@ -49,7 +48,6 @@
 		F814DD652CAEBDD500E98969 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		F814DD662CAEBDD500E98969 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		F814DD672CAEBDD500E98969 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		F814DD692CAEBDD500E98969 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F814DD712CAEBDD500E98969 /* hikeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		F814DD722CAEBDD500E98969 /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		F814DD8A2CAEBDD500E98969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 			children = (
 				F814DD712CAEBDD500E98969 /* hikeData.json */,
 				F814DD722CAEBDD500E98969 /* landmarkData.json */,
-				F814DD692CAEBDD500E98969 /* Preview Assets.xcassets */,
 				F814DDEA2CAEBEB500E98969 /* Hikes */,
 			);
 			path = Resources;
@@ -207,9 +204,17 @@
 			path = Profiles;
 			sourceTree = "<group>";
 		};
+		F8A240C92CB2AB370005F729 /* Pre */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pre;
+			sourceTree = "<group>";
+		};
 		F8A6C1FC2C70E92B00CCFEF1 = {
 			isa = PBXGroup;
 			children = (
+				F8A240C92CB2AB370005F729 /* Pre */,
 				F84852A52CAEC95600AC184B /* LandmarksApp.xcconfig */,
 				F814DCC92CAEA98C00E98969 /* LandmarksApp-release.xcconfig */,
 				F814DDAF2CAEBDDA00E98969 /* LandmarksApp */,
@@ -287,7 +292,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F814DCCA2CAEA99B00E98969 /* LandmarksApp-release.xcconfig in Resources */,
-				F814DD8F2CAEBDD500E98969 /* Preview Assets.xcassets in Resources */,
 				F814DD902CAEBDD500E98969 /* hikeData.json in Resources */,
 				F814DD912CAEBDD500E98969 /* landmarkData.json in Resources */,
 				F84852A62CAEC95600AC184B /* LandmarksApp.xcconfig in Resources */,
@@ -466,7 +470,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Resources\"";
 				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -508,7 +511,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Resources\"";
 				DEVELOPMENT_TEAM = S56VW4D8X4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
